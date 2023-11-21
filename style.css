@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#js-operator,
+#js-controller {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+#js-input-num div {
+    display: flex;
+}
+
+#js-input-num button {
+    margin-right: 5px; /* ボタン間の余白を設定 */
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* オペレーターボタンのスタイル */
+#js-operator button {
+    background-color: #3498db;
+    color: #fff;
+}
+
+#js-operator button:hover {
+    background-color: #2980b9;
+}
+
+/* 数字ボタンのスタイル */
+#js-input-num div {
+    display: flex;
+}
+
+#js-input-num button {
+    background-color: #2ecc71;
+    color: #fff;
+    margin-right: 5px; /* ボタン間の余白を設定 */
+}
+
+#js-input-num button:hover {
+    background-color: #27ae60;
+}
+
+/* コントローラーボタンのスタイル */
+#js-controller button {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+#js-controller button:hover {
+    background-color: #c0392b;
+}
+
+/* 結果表示のスタイル */
+#js-result {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
